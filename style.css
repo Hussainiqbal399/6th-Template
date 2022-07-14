@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(224, 221, 221);
+    height: 100vh;
+}
+.div1{
+    display: flex;
+    background-color:#22a8f1;
+    width: 1100px;
+    height: 100px;
+    margin: 4% 10%;
+}
+.nav1{
+    display: flex;
+    padding: 4% 0%;
+    margin-left: 25%;
+    color: white;
+}
+.nav1 li{
+    list-style: none;
+    margin: 0% 5%;
+    padding: 0px 15px;
+
+}
+.nav1 li:active{
+    color: red;
+}
+.nav1 li:hover{
+    color: rgb(120, 120, 10);
+    background-color: white;
+    height: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.div1 h1{
+    margin:3% 5%;
+    color: white;
+    font-size: 30px;
+    
+}
+.div2{
+    margin:7% 10%;
+    display: flex;
+}
+.div2 h5{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    color: blue;
+}
+.div2 h1{
+font-size: 45px;
+color: yellow;
+}
+.div2 button{
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+}
+#main{
+    background-color: #181837;
+    padding: 1px;
+    /* padding-bottom: 10px; */
+    height: 80vh;
+}
+.d1{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    margin: 5% 1%;
+    padding: 1% 2%;
+}
+.maindiv{
+    display: flex;
+    padding: 0% 10%;
+
+}
+.btn{
+    width: 70px;
+    height: 25px;
+    margin-top: 3%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.head{
+    color: blue;
+}
+.img{
+    height: 300px;
+    width: 280px;
+    position: relative;
+    left: 189%;
+    bottom: 8.5%;
+    background-color: transparent;
+}
+.copyright{
+    color:black;
+    background-color:white;
+    padding: 22px 0px;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 3px;
+    font-size:15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
